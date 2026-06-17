@@ -17,16 +17,19 @@ A user should be able to open the app, create a routine or choose from existing 
 ## Target Users
 
 ### Fitness Users
+
 People who use interval timers for workouts, HIIT, stretching, boxing rounds, circuits, mobility routines, or gym training.
 
 Fitness users are the primary target users for the MVP.
 
 ### Focus Users
+
 People who use timed work/rest sessions for studying, coding, writing, reading, or deep work.
 
 Focus users are supported by the same timer structure, but the MVP should prioritize workout language and workout use cases.
 
 ### Everyday Routine Users
+
 People who need simple repeatable timers for habits, chores, breathing exercises, meditation, or practice sessions.
 
 ## Main User Problems
@@ -41,6 +44,23 @@ Users need:
 - Clear visual and audio feedback when a phase changes.
 - A mobile interface that is easy to read while exercising.
 - A simple iOS experience that works without login or internet connection.
+
+## Tech Stack
+
+TimerPlus MVP will use:
+
+- TypeScript as the main programming language.
+- React Native for building the mobile app UI.
+- Expo for development, local testing, and app tooling.
+
+The MVP target platform is iOS only.
+
+The MVP will not include:
+
+- Android support.
+- Web support.
+- Backend services.
+- Cloud database.
 
 ## MVP Scope
 
@@ -94,6 +114,7 @@ These can be added later as separate OpenSpec changes.
 ## Core Concepts
 
 ### Routine
+
 A routine is a timer configuration that can be saved and reused.
 
 A routine contains:
